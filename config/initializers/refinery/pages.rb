@@ -9,7 +9,7 @@ Refinery::Pages.configure do |config|
   # config.default_parts = ["Body", "Side Body"]
 
   # Configure whether to allow adding new page parts
-  # config.new_page_parts = false
+  config.new_page_parts = true
 
   # Configure whether to enable marketable_urls
   # config.marketable_urls = true
@@ -53,5 +53,5 @@ Refinery::Pages.configure do |config|
 
   # config.absolute_page_links = false
 
-  # config.show_title_in_body = true
+  config.show_title_in_body = false
 end
