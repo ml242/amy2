@@ -3,6 +3,18 @@ body {
   text-align:center;
 }
 
+#home-page {
+  background-image: url('menupagebackgroundblank.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#headshot {
+  height: 90%;
+  width: 90%;
+}
+
 .welcome {
   height: 45px;
   width: 358px;
